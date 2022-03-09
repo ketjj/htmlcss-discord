@@ -24,7 +24,9 @@ a {
   text-decoration: none;
   color: #23272a;
 }
-
+ul li {
+  list-style: none;
+}
 /* 
 HEADER 
 */
@@ -232,8 +234,29 @@ section {
 
 /* FOOTER */
 
-
 footer {
-  background-color: red ;
-  height: 30px;
+  background-color: #23272a;
+}
+footer .column {
+  float:left;
+  width: 15%;
+  padding: 40px 10px;
+}
+
+.first.column {
+  width: 30%;
+}
+
+footer .column h3 {
+  color: #8ea1e1;
+  font-size: 30px;
+}
+
+ul li:first-child {
+  color: #8ea1e1;
+}
+
+footer ul li {
+  color: white;
+  line-height: 30px;
 }
