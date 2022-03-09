@@ -32,7 +32,6 @@ HEADER
 header { 
   background-color: #3161e0;
   padding: 25px 0;
-
 }
 
 .clearfix > div {
@@ -71,7 +70,6 @@ li a:hover{
 }
 
 .nav-button {
-  width: 15%;
   text-align: right;  
 }
 
@@ -162,28 +160,27 @@ SECTION
 
 section {
   background-color: white;
-  height: 600px;
+  padding: 100px 0;
 }
 .gray {
   background-color: #f6f6f6;
-}
-
-.first.clearfix {
-  padding-top: 60px;
+  text-align: center;
+  padding-top: 90px;
 }
 
 .column.right{
-  width: 60%;
-  padding: 11px;
+  width: 59%;
+  margin-right: 40px; 
 }
 .column.left {
   width: 33%;
-  padding: 40px 35px;
+  padding: 36px 38px;
 
 }
 .column > h2 {
   font-size: 38px;
   margin-bottom: 20px;
+  font-weight: 600;
 
 }
 .column > p {
@@ -191,11 +188,50 @@ section {
   font-weight: 500;
   line-height: 20px;
 }
+.describe {
+  margin-bottom: 25px;
+}
+.describe h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
 
+.gray.describe p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.image1 img{
+  width: 100%;
+  margin: 0 auto;
+}
+.text-photo{
+  position: relative;
+  margin-bottom: 20px;
+}
+.text-photo h3{
+  position:absolute;
+  font-size: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 13%);
 
+}
 
-FOOTER
-*/
+.big.button.purple {
+  background-color: #8ea1e1;
+}
+.big.button.purple a {
+  color: white;
+}
+
+.big.button.purple:hover {
+  background-color: #6d8aec;
+}
+
+/* FOOTER */
+
 
 footer {
   background-color: red ;
